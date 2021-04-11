@@ -1,14 +1,3 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobidev/simplefolio/
-  Readme: https://github.com/cobidev/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,11 +7,11 @@
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
     <!-- Put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Bessim Boujebli | Developer</title>
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <meta name="keywords" content="BessimBoujebli, Bessim Boujebli, Developer" />
     <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="Bessim Boujebli  | Developer" />
 
     <!-- Required librarys -->
     <link
@@ -33,12 +22,8 @@
     <script>
       ScrollReveal({ reset: false });
     </script>
-
-    <!-- Remove this script once you setup your custom portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
 
@@ -46,9 +31,9 @@
     <div id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, my name is <span class="text-color-main">Bessim Boujebli</span>
           <br />
-          I'm the Unknown Developer.
+          I'm a self-taught Developer.
         </h1>
         <p class="hero-cta" class="load-hidden">
           <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
@@ -59,13 +44,14 @@
 
     <!-- **** About Section **** -->
     <section id="about">
+      
       <div class="container">
         <h2 class="section-title">About me</h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image">
               <img
-                class="img-fluid rounded shadow-lg"
+                class="img-fluid shadow-lg"
                 height="auto"
                 width="300px"
                 src="./assets/profile.jpg"
@@ -76,11 +62,20 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
+                hey, I'm Bessim, I'm 22 years old and I'm from Bizerte,Tunisia.
+                  I'm a code enthusiast, i start coding since 2 years.
+                  At the start I just loved to play around with simple code.
+                  But then coding becomes much more than a hobby.
+                  I start to study it a lot in my free Time
+                  I've join multiple courses, i've Learn a lot of topics.
+                  And i did a lot of Projects, basically any project idea i can get my hands on.
+                  Now im searching for a internship to get more experience and Learn more.
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                I also have a lot of hobbies except coding. I like electronics and Techs in general 
+                  it's also what i study at the university in my first 3 years.
+                  I like to build things and automate the boring stuff around me.
+                  I like kitties too..
               </p>
               <span class="d-flex mt-3">
                 <a target="_blank" class="cta-btn cta-btn--resume" href="">
@@ -98,26 +93,28 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+          <a href="#E-commerce">
+            <h2 class="section-title dark-blue-text">Projects</h2>
+          </a>
+          
 
           <!-- Each .row is a project -->
-          <div class="row">
+          <div class="row" id="E-commerce">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">E-commerce</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    A React based E-commerce website include Firebase,hooks,react motion and a lot more..<br />
+                    I start this project with Andrei Neagoie. <br />
+                      He's an instructure who have a big part in my learning.<br />
+                      After i finish the course i take the project to the next level and i add a lot of new features and updates
                   </p>
                 </div>
                 <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/bessim-dev/react-ecommerce">
                   Source Code
                 </a>
               </div>
@@ -126,7 +123,7 @@
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/Ecommerce.PNG" />
                   </div>
                 </a>
               </div>
@@ -138,20 +135,19 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Task Manager Mobile APP</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    In this project i've used:<br />
+                    - React Native for the frontend.<br />
+                    - NodeJs for the backend.<br />
+                    - MongoDB as a database.<br />
                   </p>
                 </div>
                 <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/bessim-dev/TaskMangerUI">
                   Source Code
                 </a>
               </div>
@@ -160,7 +156,7 @@
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/taskManager.jpg" />
                   </div>
                 </a>
               </div>
@@ -172,20 +168,20 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">MealsToGo</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    A project that helps you find the restaurents in a any given place,<br/>
+                    check their menus,<br/>
+                    Search for the restaurents on the map,<br/>
+                    Create a an account, save your data and more.<br/>
+                    This Project was part of a course i had taken about React Native
                   </p>
                 </div>
                 <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/bessim-dev/MealToGo">
                   Source Code
                 </a>
               </div>
@@ -194,13 +190,73 @@
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/resApp.png" />
                   </div>
                 </a>
               </div>
             </div>
           </div>
           <!-- /END Project -->
+                    <!-- Each .row is a project -->
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-12">
+                        <div class="project-wrapper__text">
+                          <h3 class="project-wrapper__text-title">YouTube Clone</h3>
+                          <div>
+                            <p class="mb-4">
+                              In This Project i've created a clone to the YouTube UI and some of it's functionality<br/>
+                              for learning purpose,<br/>
+                              i've used React, Material_UI_Icons and the YouTube_API<br/>
+                            </p>
+                          </div>
+                          <a target="_blank" class="cta-btn cta-btn--hero" href="https://youtubeclone12.herokuapp.com/">
+                            See Live
+                          </a>
+                          <a target="_blank" class="cta-btn text-color-main" href="https://github.com/bessim-dev/youtube-clone">
+                            Source Code
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-12">
+                        <div class="project-wrapper__image">
+                          <a href="#!" target="_blank">
+                            <div data-tilt class="thumbnail rounded">
+                              <img class="img-fluid" src="./assets/YouTubeClone.PNG" />
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /END Project -->
+                    <h2 class="section-title dark-blue-text">Blog</h2>
+                    <!-- Each .row is a project -->
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-12">
+                        <div class="project-wrapper__text">
+                          <h3 class="project-wrapper__text-title">HashNode</h3>
+                          <div>
+                            <p class="mb-4">
+                              Lately i found this platform called Hashnode, and i've have started my journey to write blogs,
+                              To memorise some of my learnings or hopefully to help others get there too.
+                              Make sure to check on it
+                            </p>
+                          </div>
+                          <a target="_blank" class="cta-btn cta-btn--hero" href="https://bessim.hashnode.dev/">
+                            Check It Out!
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-12">
+                        <div class="project-wrapper__image">
+                          <a href="#!" target="_blank">
+                            <div data-tilt class="thumbnail rounded">
+                              <img class="img-fluid" src="./assets/Blog.PNG" />
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /END Project -->
         </div>
       </div>
     </section>
@@ -211,72 +267,19 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <p class="contact-wrapper__text">A Passionate and Dedicated Developer</p>
           <a
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            href="mailto:bessim.boujebli@gmail.com"
+            >HIRE ME!</a
           >
+          <p class="contact-wrapper__text">bessim.boujebli@gmail.com</p>
+
         </div>
       </div>
     </section>
     <!-- /END Contact Section -->
 
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
-
-        <!-- If you give me some credit, will be huge for me :) -->
-        <p class="footer__text">
-          © 2020 - Template developed by
-          <a href="https://github.com/cobidev" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- Remove this paragraph once you setup your custom portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
-      </div>
-    </footer>
-    <!-- /END Footer Section -->
   </body>
 </html>
